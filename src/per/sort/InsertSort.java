@@ -7,6 +7,7 @@ package per.sort;
 public class InsertSort extends Sort{
     /**
      * 排序算法：直接插入排序(结束时从小到大排序)
+     * 稳定
      *
      * @param array 待排序数组
      */
