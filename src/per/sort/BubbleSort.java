@@ -17,15 +17,9 @@ public class BubbleSort extends Sort{
         for (int i = 0; i < array.length ; i++) {
             for (int j = 0; j < array.length - 1 - i; j++) {
                 if(array[j] > array[j + 1])
-                    swap(array,j,j + 1);
+                    swap(array, j,j + 1);
             }
         }
-    }
-
-    private static void swap(int[] arr,int i,int j) {
-        int temp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = temp;
     }
 
     public static void main(String[] args) {
