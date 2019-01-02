@@ -9,6 +9,7 @@ import java.util.Arrays;
 public class QuickSort extends Sort{
     /**
      * 排序算法：快速排序(结束时从小到大排序)
+     * 不稳定
      *
      * @param array 待排序数组
      */
