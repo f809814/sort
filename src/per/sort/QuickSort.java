@@ -7,7 +7,11 @@ import java.util.Arrays;
  * @date 2018/12/31 - 22:08
  */
 public class QuickSort extends Sort{
-
+    /**
+     * 排序算法：快速排序(结束时从小到大排序)
+     *
+     * @param array 待排序数组
+     */
     @Override
     public void sort(int[] array) {
         sortImpl(array,0,array.length - 1);

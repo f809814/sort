@@ -6,7 +6,7 @@ package per.sort;
  */
 public class BubbleSort extends Sort{
     /**
-     * 排序算法1：选择排序(结束时从小到大排序)
+     * 排序算法：冒泡排序(结束时从小到大排序)
      *
      * @param array 待排序数组
      */
