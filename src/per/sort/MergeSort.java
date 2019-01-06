@@ -9,7 +9,7 @@ import java.util.Arrays;
 public class MergeSort extends Sort{
     /**
      * 排序算法：归并排序(结束时从小到大排序)
-     *稳定
+     * 稳定
      *
      * @param array 待排序数组
      */
